@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "hello_world/index", to: "hello_world#index"
+  get "hello_world/show", to: "hello_world#show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
